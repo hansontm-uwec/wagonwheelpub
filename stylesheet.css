@@ -1,0 +1,471 @@
+header {
+    background-color: rgb(0, 41, 70, 0.5);
+    margin: 0 0 3rem 0;
+    padding: 1rem;
+    display: flex;
+
+}
+.mobile {
+    display: none;
+}
+.logo {
+    width: 25rem;
+    margin: 0 1rem 1rem 2rem;
+    display: inline;
+}
+nav a {
+    color: #F8F4F9;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    font-weight: bold;
+    border: 1px solid transparent;
+    right: 0;
+    display: flex;
+    float: right;
+    
+}
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+    background-color: #2A628F;
+
+}
+body {
+    background-color: black;
+    margin: 0;
+    font-family: georgia, 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+h2 {
+    font: bold;
+    font-size: 40pt;
+}
+h3 {
+    font: bold;
+    font-size: 24pt ;
+}
+form {
+    
+    padding: 2rem 3rem;
+    width: 20rem;
+    height: 25rem;
+    margin: 1rem auto;
+    text-align: left;
+}
+.homebox {
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(0, 41, 70, 0.5);
+    display: block;
+    padding-top: 1rem ;
+    color: #F8F4F9;
+    text-align: center;
+    padding-bottom: 1rem;
+    
+}
+.contactinfo {
+    text-align: center;
+    background-color: rgb(42, 106, 143, 0.5);
+    width: 30%;
+    height: 30rem;
+    color:  #F8F4F9;
+}
+.contactform {
+    display: inline;
+    background-color: rgb(42, 106, 143, 0.5);
+    text-align: center;
+    color:  #F8F4F9;
+}
+.contacts {
+    display: flex;
+    justify-content: space-around;
+}
+input[type=text], input[type=tel], input[type=email] {
+    width: 100%;
+    clear: right;
+    border: 1px transparent;
+    padding: 1rem 1rem 0 0;
+    margin: 1rem;
+}
+#message {
+    padding: 0 1rem 5rem 0;
+}
+input[type=submit] {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.concert {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(0, 41, 70, 0.5);
+    left: 10%;
+    width: 30%;
+    height: 35rem;
+    color:  #F8F4F9;
+}
+.disclaimer {
+    position: absolute;
+    display: inline-block;
+    right: 15%;
+    bottom: .5rem;
+    text-align: center;
+    background-color: rgb(0, 41, 70, 0.5);
+    width: 30%;
+    height: 10rem;
+    color:  #F8F4F9;
+    padding: 0 1rem 0 1rem;
+    margin-top: 2rem;
+    
+}
+.tickets {
+    position: absolute;
+    right:10%;
+    padding: 0 5rem 3rem 5rem;
+    display: inline-block;
+    text-align: center;
+    background-color:rgb(0, 41, 70, 0.5);
+    width: 30%;
+    height: 10rem;
+    color:  #F8F4F9;
+    margin-bottom: 3rem;
+}
+.aboutus {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(0, 41, 70, 0.5);
+    left: 10%;
+    width: 30%;
+    height: 20rem;
+    color:  #F8F4F9;
+}
+.info {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    background-color:rgb(0, 41, 70, 0.5);
+    right: 10%;
+    width: 30%;
+    height: 20rem;
+    padding: 2rem 2rem 1rem 2rem;
+    color:  #F8F4F9;
+}
+.menu {
+    margin: 1rem 35% 1rem 35% ;
+    display: block;
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    padding: 1rem;
+    background-color: rgb(0, 41, 70, 0.5);
+    text-align: center;
+    border: 1px solid #F8F4F9;
+    color:  #F8F4F9;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 13rem 30% 30% 30% ;
+
+}
+.APPETIZERS {
+    display: grid;
+    vertical-align: top;
+    grid-column: 1;
+    grid-row: 2;
+    width: 500px;
+    margin:auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgb(0, 41, 70, 0.5);
+    text-align: center;
+    border: 1px solid #F8F4F9;
+    color:  #F8F4F9;
+}
+.entrees {
+    display: grid;
+    vertical-align: top;
+    width: 500px;
+    margin:auto;
+    margin-top: 2rem;
+    grid-row: 2 / span 2;
+    grid-column: 2;
+    padding: 1rem;
+    padding-bottom: 18.5rem;
+    background-color: rgb(0, 41, 70, 0.5);
+    text-align: center;
+    border: 1px solid #F8F4F9;
+    color:  #F8F4F9;
+}
+.dessert {
+    display: grid;
+    grid-row: 3;
+    grid-column: 1;
+    margin:auto;
+    margin-top: 2rem;
+    width: 500px;
+    padding: 1rem;
+    background-color: rgb(0, 41, 70, 0.5);
+    text-align: center;
+    border: 1px solid #F8F4F9;
+    color:  #F8F4F9;
+} 
+.taps {
+    
+    display: grid;
+    grid-row: 4;
+    margin-top: 5rem;
+    margin:auto;
+    margin-bottom: 0;
+    width: 1000px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 1rem;
+    background-color: rgb(0, 41, 70, 0.5);
+    text-align: center;
+    border: 1px solid #F8F4F9;
+    color:  #F8F4F9;
+}
+@media (max-width:1100px){
+
+    header {
+        background-color: rgb(0, 41, 70, 0.5);
+        margin: 0 0 3rem 0;
+        padding: 1rem;
+        display: flex;
+    
+    }
+    .logo {
+        width: 25rem;
+        margin: 0 1rem 1rem 2rem;
+        display: inline;
+    }
+    .desktop {
+        display: none;
+    }
+    .nav {
+        text-align: center;
+    }
+    nav a {
+        color: #F8F4F9;
+        text-decoration: none;
+        padding: 1rem 0 1rem 0;
+        margin: .5rem;
+        font-weight: bold;
+        border: 1px solid transparent;
+        display: inline-block;
+        text-align: center;
+ 
+    }
+    nav a:hover {
+        color: black;
+        text-decoration: underline;
+        background-color: #2A628F;
+    
+    }
+    body {
+        background-color: black;
+        margin: 0;
+        font-family: georgia, 'Gill Sans', 'Gill Sans MT', sans-serif;
+    }
+    h2 {
+        font: bold;
+        font-size: 24pt;
+    }
+    h3 {
+        font: bold;
+        font-size: 24pt ;
+    }
+    .homebox {
+        position: relative;
+        margin: 5rem 10% 0 10%;
+        background-color: rgb(0, 41, 70, 0.5);
+        display: block;
+        color: #F8F4F9;
+        text-align: center;
+        font-size: 12pt
+        
+    }
+    .logo2 {
+        content: url(images/SVG/Asset\ 3.svg);
+        width: 70%;
+        margin: auto;
+    }
+    form {
+        
+        padding: 2rem 3rem;
+        width: 70%;
+        height: 50%;
+        margin: 1rem auto;
+        text-align: left;
+    }
+    .contactinfo {
+        display: block;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background-color: rgb(42, 106, 143, 0.5);
+        width: 70%;
+        height: 40%;
+        color:  #F8F4F9;
+    }
+    .contactform {
+        display: block;
+        margin-top: 1rem;
+        margin: auto;
+        width: 70%;
+        padding: 1rem;
+        background-color: rgb(42, 106, 143, 0.5);
+        text-align: center;
+        color:  #F8F4F9;
+    }
+    .contacts {
+        display: block;
+    }
+    input[type=text], input[type=tel], input[type=email] {
+        width: 100%;
+        clear: right;
+        border: 1px solid black;
+        padding: 1rem 1rem 0 0;
+        margin: 1rem;
+    }
+    #message {
+        padding: 0 1rem 5rem 0;
+    }
+    input[type=submit] {
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+    .mobilemusic {
+        display: inline-block;
+        width: 95%;
+    }
+    .concert {
+        position: unset;
+        height: unset;
+        left: unset;
+        display: inline-block;
+        text-align: center;
+        background-color: rgb(0, 41, 70, 0.5);
+        color:  #F8F4F9;
+        margin: 1rem 25% 2rem 25%;
+        width: 50%;
+        padding: 1rem;
+    
+    }
+    .disclaimer {
+        position: unset;
+        right: unset;
+        bottom: unset;
+        display: inline-block;
+        text-align: center;
+        background-color: rgb(0, 41, 70, 0.5);
+        color:  #F8F4F9;
+        width: 50%;
+        margin: 2rem 25% 2rem 25%;
+        padding: 1rem;
+        padding-bottom: 4rem;
+
+        
+    }
+    .tickets {
+        position: unset;
+        right: unset;
+        display: inline-block;
+        text-align: center;
+        background-color:rgb(0, 41, 70, 0.5);
+        width: 50%;
+        height: 30%;
+        color:  #F8F4F9;
+        margin: 2rem 25% 2rem 25%;
+        padding: 1rem
+    }
+    .info {
+        position: unset;
+        margin: 1rem 20% 1rem 20%;
+        display: inline-block;
+        text-align: center;
+        background-color:rgb(0, 41, 70, 0.5);
+        right: unset;
+        width: 50%;
+        padding: 2rem 2rem 1rem 2rem;
+        color:  #F8F4F9;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto ;
+    
+    }
+    .APPETIZERS {
+        display: grid;
+        grid-column: 1;
+        grid-row: 2;
+        width: 50%;
+        margin:auto;
+        margin-top: 2rem;
+        padding: 1rem;
+        background-color: rgb(0, 41, 70, 0.5);
+        text-align: center;
+        border: 1px solid #F8F4F9;
+        color:  #F8F4F9;
+    }
+    .entrees {
+        display: grid;
+        width: 50%;
+        margin:auto;
+        margin-top: 2rem;
+        grid-row: 3;
+        grid-column: 1;
+        padding: 1rem;
+        background-color: rgb(0, 41, 70, 0.5);
+        text-align: center;
+        border: 1px solid #F8F4F9;
+        color:  #F8F4F9;
+    }
+    .dessert {
+        display: grid;
+        grid-row: 4;
+        grid-column: 1;
+        margin:auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        width: 50%;
+        padding: 1rem;
+        background-color: rgb(0, 41, 70, 0.5);
+        text-align: center;
+        border: 1px solid #F8F4F9;
+        color:  #F8F4F9;
+    } 
+    .taps {
+        
+        display: grid;
+        grid-row: 5;
+        margin-top: 5rem;
+        margin:auto;
+        margin-bottom: 0;
+        width: 50%;
+        grid-column: 1;
+        padding: 1rem;
+        background-color: rgb(0, 41, 70, 0.5);
+        text-align: center;
+        border: 1px solid #F8F4F9;
+        color:  #F8F4F9;
+    }
+    .menu {
+        margin: 1rem 35% 1rem 35% ;
+        display: block;
+        grid-row: 1;
+        grid-column: 1;
+        padding: 1rem;
+        background-color: rgb(0, 41, 70, 0.5);
+        text-align: center;
+        border: 1px solid #F8F4F9;
+        color:  #F8F4F9;
+    }
+}
